@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bunny's Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <header>
+    <!-- navigation -->
+    <nav>
+      <div class="nav-left">
+        <div class="web-logo">
+          <img src="./images/logo.png" alt="">
+          <span>
+            <h5>Ninja</h5>
+            <h3>Studio</h3>
+          </span>
+        </div>
+        <div>
+          <a href="#favourites" class="favourites">
+            <h5>Favourites</h5>
+          </a>
+        </div>
+
+      </div>
+      <div class="nav-right">
+
+        <div class="search">
+          <i class="bi bi-search"></i>
+          <input type="text" name="search" placeholder="Search Music...">
+        </div>
+        <div id="notification">
+          <a href="#bell-notif"><i id="close-notif" class="bi bi-bell-fill"></i></a>
+          <a href="#close-notif" id="bell-notif">
+            <div class="no-list-style">
+              <li>
+                <h5>My Way</h5><span>Neffex</span>
+              </li>
+              <li>
+                <h5>Fear</h5><span>The Score</span>
+              </li>
+              <li>
+                <h5>Sober</h5><span>Josh A</span>
+              </li>
+            </div>
+          </a>
+        </div>
+        <div id="user">
+          <img src="./images/user.jpg" alt="login" title="User@reeman">
+        </div>
+      </div>
+    </nav>
+    <!-- song-side -->
+    <div class="song_side">
+      <div id="carousel">
+
+        <li><img src="./images/cb2.jpg" alt=""></li>
+        <li><img src="./images/cb3.jpg" alt=""></li>
+        <li><img src="./images/cb1.jpg" alt=""></li>
+        <li><img src="./images/cb4.jpg" alt=""></li>
+        <li><img src="./images/cb5.jpg" alt=""></li>
+      </div>
+      <div id="latest-release">
+        <div class="popular_song">
+          <div class="h4">
+            <h4>Latest Release</h4>
+            <div class="btn_s">
+              <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+              <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/AlanWalker.webp" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="P1"></i>
+              </div>
+              <h5>
+                On My Way <br />
+                <div class="subtitle">Alan Walker</div>
+              </h5>
+            </li>
+            <!-- now in every li in this div, change their IDs -->
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/AlanWalker.webp" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="P2"></i>
+              </div>
+              <h5>
+                On My Way <br />
+                <div class="subtitle">Alan Walker</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/AlanWalker.webp" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="P3"></i>
+              </div>
+              <h5>
+                On My Way <br />
+                <div class="subtitle">Alan Walker</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/AlanWalker.webp" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="P4"></i>
+              </div>
+              <h5>
+                On My Way <br />
+                <div class="subtitle">Alan Walker</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/AlanWalker.webp" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="P5"></i>
+              </div>
+              <h5>
+                On My Way <br />
+                <div class="subtitle">Alan Walker</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/AlanWalker.webp" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="P6"></i>
+              </div>
+              <h5>
+                On My Way <br />
+                <div class="subtitle">Alan Walker</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/AlanWalker.webp" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="P7"></i>
+              </div>
+              <h5>
+                On My Way <br />
+                <div class="subtitle">Alan Walker</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/AlanWalker.webp" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="P8"></i>
+              </div>
+              <h5>
+                On My Way <br />
+                <div class="subtitle">Alan Walker</div>
+              </h5>
+            </li>
+
+          </div>
+        </div>
+      </div>
+      <div id="popular-Artists">
+
+        <div class="popular_artists">
+          <div class="h4">
+            <h4>Popular Artists</h4>
+            <div class="btn_s">
+              <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+              <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
+          <div class="item">
+            <li>
+              <a href="">
+                <img src="./images/KailashKher.jpg" alt="Kailash Kher" title="Kailash Kher" />
+              </a>
+
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/neffexgrp.jfif" alt="Neffex" title="NEFFEX" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/bryceSavage.jpg" alt="bryce Savage" title="Bryce Savage" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/cameronWhales.jpg" alt="CameronWhales" title="Cameron Whales" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/ArrestedYouth.jpg" alt="Arrested Youth" title="Arrested Youth" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/TheScore.jpg" alt="The Score" title="The Score" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/NF.jpg" alt="NF" title="NF" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/Marshmallow.jfif" alt="Marshmallow" title="Marshmallow" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/BillieEilish.webp" alt="Billie Eilish" title="Billie Eilish" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/AlecBenjamin.webp" alt="Alec Benjamin" title="Alec Benjamin" />
+              </a>
+            </li>
+            <!-- change all image -->
+          </div>
+
+        </div>
+
+
+      </div>
+      <div id="stations">
+        <li class="sheets">
+          <div class="sheet1">
+            <div class="sheet2">
+              <div class="sheet3">
+                <img src="./images/logo-stations.png" alt="">
+                <h5>Stations</h5>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="ambient stations">
+          <img src="./images/Ambient.jpg" alt="">
+          <h5>Ambient</h5>
+        </li>
+        <li class="retro stations">
+          <img src="./images/retroMusic.webp" alt="">
+          <h5>Retro</h5>
+        </li>
+        <li class="pop stations">
+          <img src="./images/popMusic.webp" alt="">
+          <h5>Pop</h5>
+        </li>
+        <li class="love stations">
+          <img src="./images/loveMusic.jpg" alt="">
+          <h5>Love</h5>
+        </li>
+        <li class="chill stations">
+          <img src="./images/ChillMusic.jfif" alt="">
+          <h5>Chill</h5>
+        </li>
+        <li class="workout stations">
+          <img src="./images/Dumbbell.jfif" alt="">
+          <h5>Workout</h5>
+        </li>
+
+
+      </div>
+      <div id="genre">
+        <li class="party">
+          <img src="./images/party.jfif" alt="">
+        </li>
+        <li class="electronic">
+          <img src="./images/electronic.webp" alt="">
+        </li>
+        <li class="road">
+          <img src="./images/roadtrip.jpg" alt="">
+        </li>
+      </div>
+      <div id="latest-english">
+        <div class="popular_song">
+          <div class="h4">
+            <h4>Latest English</h4>
+            <div class="btn_s">
+              <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+              <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/AlanWalker.webp" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="E1"></i>
+              </div>
+              <h5>
+                On My Way <br />
+                <div class="subtitle">Alan Walker</div>
+              </h5>
+            </li>
+            <!-- now in every li in this div, change their IDs -->
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/neffexgrp.jfif" alt="NEFFEX" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="E2"></i>
+              </div>
+              <h5>
+                Play <br />
+                <div class="subtitle">NEFFEX</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/BornForThis.jpg" alt="The Score" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="E3"></i>
+              </div>
+              <h5>
+                The Fear<br />
+                <div class="subtitle">The Score</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/BillieEilish.webp" alt="BillieEilish" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="E4"></i>
+              </div>
+              <h5>
+                Lovely <br />
+                <div class="subtitle">Billie Eilish</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/Marshmallow.jfif" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="E5"></i>
+              </div>
+              <h5>
+                Happier <br />
+                <div class="subtitle">Marshmallow</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/bryceSavage.jpg" alt="bryceSavage" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="E6"></i>
+              </div>
+              <h5>
+                Close Your Eyes<br />
+                <div class="subtitle">Bryce Savage</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/LeaveMyCasketOpen.jpg" alt="Arrested Youth" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="E7"></i>
+              </div>
+              <h5>
+                Leave My Casket..<br />
+                <div class="subtitle">Arrested Youth</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/BornForThis.jpg" alt="The Score" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="E8"></i>
+              </div>
+              <h5>
+                Born For This<br />
+                <div class="subtitle">The Score</div>
+              </h5>
+            </li>
+
+          </div>
+        </div>
+      </div>
+      <div id="latest-hindi">
+        <div class="popular_song">
+          <div class="h4">
+            <h4>Latest Hindi</h4>
+            <div class="btn_s">
+              <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+              <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/PalakMuchhal.jpg" alt="Palak Muchhal" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="H1"></i>
+              </div>
+              <h5>
+                Kaun Tujhe<br />
+                <div class="subtitle">Palak Muchhal</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/ArijitSingh.jpg" alt="Arijit Singh" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="H2"></i>
+              </div>
+              <h5>
+                Darkhaast<br />
+                <div class="subtitle">Arijit Singh</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/KailashKher.jpg" alt="Kailash Kher" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="H3"></i>
+              </div>
+              <h5>
+                Ya Rabba<br />
+                <div class="subtitle">Kailash Kher</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/VishalDadlani.jfif" alt="Vishal Dadlani" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="H4"></i>
+              </div>
+              <h5>
+                Kareeb<br />
+                <div class="subtitle">Vishal Dadlani</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/ShreyaGhoshal.jfif" alt="Alan Walker" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="H5"></i>
+              </div>
+              <h5>
+                Teri Ore<br />
+                <div class="subtitle">Shreya Ghoshal</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/ShankarMahadevan.jpg" alt="ShankarMahadevan" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="H6"></i>
+              </div>
+              <h5>
+                Breathless<br />
+                <div class="subtitle">Shankar Mahadevan</div>
+              </h5>
+            </li>
+            <li class="song_item">
+              <div class="img_play">
+                <img src="./images/ShekharRavjiani.jpg" alt="ShekharRavjiani" />
+                <i class="bi playlistPlay bi-play-circle-fill" id="H7"></i>
+              </div>
+              <h5>
+                Meherbaan<br />
+                <div class="subtitle">Shekhar Ravjiani</div>
+              </h5>
+            </li>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- menu side  -->
+    <div class="menu_side">
+      <div class="menu-side-song-bar">
+        <div id="heading">
+          <h3>Queue</h3>
+          <p><a href="#Queue-list" id="close-queue">Queue</a><i class="bi bi-chevron-down"></i></p>
+          <a href="#close-queue" id="Queue-list">
+            <div class="no-list-style queue">
+              <!-- <li><a href="#my-playlist" id="playlist">Playlist</a></li>
+                            <li><a href="#favourites" id="ref-to-fav">Favourite Songs</a></li> -->
+              <li>Playlist</li>
+              <li>Favourite Songs</li>
+            </div>
+          </a>
+        </div>
+        <div id="song-bar">
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart1"><i id="song-bar-hollow-heart1" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart1"><i id="song-bar-fill-heart1" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart2"><i id="song-bar-hollow-heart2" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart2"><i id="song-bar-fill-heart2" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart3"><i id="song-bar-hollow-heart3" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart3"><i id="song-bar-fill-heart3" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart4"><i id="song-bar-hollow-heart4" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart4"><i id="song-bar-fill-heart4" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart5"><i id="song-bar-hollow-heart5" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart5"><i id="song-bar-fill-heart5" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart6"><i id="song-bar-hollow-heart6" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart6"><i id="song-bar-fill-heart6" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart7"><i id="song-bar-hollow-heart7" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart7"><i id="song-bar-fill-heart7" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart8"><i id="song-bar-hollow-heart8" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart8"><i id="song-bar-fill-heart8" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart9"><i id="song-bar-hollow-heart9" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart9"><i id="song-bar-fill-heart9" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="single-song">
+            <div class="wave">
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+              <li class="wave1"></li>
+            </div>
+            <div class="music_logo">
+              <img src="./images/neffex.jpg" alt="">
+              <h5>Crown
+                <p>Neffex</p>
+              </h5>
+              <p class="like_remove">
+                <a href="#song-bar-fill-heart10"><i id="song-bar-hollow-heart10" class="bi bi-heart"></i></a>
+                <a href="#song-bar-hollow-heart10"><i id="song-bar-fill-heart10" class="bi bi-heart-fill"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- master play -->
+    <div class="master_play">
+      <!-- waves for the current played music -->
+      <div class="wave">
+        <li class="wave1"></li>
+        <li class="wave1"></li>
+        <li class="wave1"></li>
+      </div>
+      <!-- music picture, song name and artist name -->
+      <div class="music_logo">
+        <img src="./images/neffex.jpg" alt="">
+        <h5>Crown
+          <p>Neffex</p>
+        </h5>
+        <p class="like_remove">
+          <!-- like and remove button -->
+          <a href="#fill-heart"><i id="hollow-heart" class="bi bi-heart"></i></a>
+          <a href="#hollow-heart"><i id="fill-heart" class="bi bi-heart-fill"></i></a>
+          <a href=""><i id="remove-hollow" class="bi bi-slash-circle"></i></a>
+        </p>
+      </div>
+      <!-- music player div -->
+      <div class="player">
+        <div class="icons">
+          <p class="shuffle">
+            <a href="#shuffle-fill"><i id="shuffle-hollow" class="bi bi-shuffle"></i></a>
+            <a href="#shuffle-hollow"><i id="shuffle-fill" class="bi bi-shuffle"></i></a>
+          </p>
+          <p class="play_icons">
+            <a href=""><i class="bi bi-skip-start-fill"></i></a>
+            <a href="#paused" class="play-circle"><i id="playing" class="bi bi-play-circle"></i></a>
+            <a href="#playing"><i id="paused" class="bi bi-pause-circle"></i></a>
+            <a href=""><i class="bi bi-skip-end-fill"></i></a>
+          </p>
+          <p class="repeat">
+            <a href="#vis-repeat"><i id="no-repeat" class="bi bi-arrow-repeat"></i></a>
+            <a href="#no-repeat"><i id="vis-repeat" class="bi bi-arrow-repeat"></i></a>
+          </p>
+
+        </div>
+        <div class="music_track">
+          <span id="currentStart">0:00</span>
+          <div class="bar">
+            <input type="range" class="musicRange" id="seek" min="0" value="0" max="100" />
+            <!-- <div class="bar2" id="bar2"></div>
+            <div class="dot"></div> -->
+          </div>
+
+          <span id="currentEnd">0:00</span>
+        </div>
+      </div>
+      <div class="vol_and_more">
+
+        <div class="access">
+          <i class="bi bi-view-list"></i>
+          <i class="bi bi-pc-display"></i>
+        </div>
+        <div class="vol">
+          <i class="bi bi-volume-down"></i>
+          <input type="range" id="vol" min="0" step="1" value="0" max="10" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+</body>
+
+</html>
