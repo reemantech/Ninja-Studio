@@ -1,2 +1,2 @@
-# Spotify-Replica-Ninja-Studio
+# Ninja-Studio
  Created using only HTML and CSS.
